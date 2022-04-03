@@ -14,4 +14,5 @@ model.fit(X_train, y_train)
 
 predictions = model.predict(X_test)
 
-accuracy_score(y_test, predictions)
+score = accuracy_score(y_test, predictions)
+score 
